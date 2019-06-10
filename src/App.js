@@ -14,7 +14,8 @@ class App extends React.Component {
         images,
         score: 0,
         topScore: 0,
-        clickedIds: []
+        clickedIds: [],
+        choiceStatus: ""
     };
 
     resetState = () => {
@@ -31,7 +32,9 @@ class App extends React.Component {
     handleChoice = (e, props) => {
 
         if (this.state.clickedIds.indexOf(props.id) > -1) {
-            console.log('loooooozeeeer!');
+            this.setState({
+                choiceStatus: 'Incorrect Guess!'
+            });
             this.resetState();
             this.shuffleImages();
             return;
@@ -41,14 +44,17 @@ class App extends React.Component {
         this.state.clickedIds.push(props.id);
 
         this.setState({
-            score: this.state.clickedIds.length
+            score: this.state.clickedIds.length,
+            choiceStatus: "You guessed correctly!"
         }, () => {
             if(this.state.score >= this.state.topScore){
                 this.setState({
                     topScore: this.state.score
                 }, () => {
                         if (this.state.score === images.length) {
-                            console.log('You win!');
+                            this.setState({
+                                choiceStatus: 'You win!'
+                            });
                             this.resetState();
                         }
                 });
@@ -60,11 +66,12 @@ class App extends React.Component {
     render() {
         return (
             <Wrapper>
-                <Title>Clicky Game</Title>
+                <Title>Memory Game</Title>
                 <Main>
                     <Score
                         score={this.state.score}
                         topScore={this.state.topScore}
+                        choiceStatus={this.state.choiceStatus}
                     />
                     <div className="row">
                     {this.state.images.map(image => (
