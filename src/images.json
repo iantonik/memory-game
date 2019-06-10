@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "squirrel",
+    "image": "https://i.pinimg.com/originals/17/78/5c/17785c005d8d54c226240372f2de0861.jpg"  
+  },
+  {
+    "id": 2,
+    "name": "sloth",
+    "image":
+      "http://4.bp.blogspot.com/-XBHVmMlvP4w/VmsqEm1zkeI/AAAAAAABhzE/6vxIKM9hUH4/s1600/funny-animals-190-02.jpg"
+
+  },
+  {
+    "id": 3,
+    "name": "fox",
+    "image":
+      "https://www.niabizoo.com/wp-content/uploads/2018/05/ms-animals-habitats-mammals.jpg"
+
+  },
+  {
+    "id": 4,
+    "name": "wolf",
+    "image":
+      "https://columbuszoo.org/Media/columbus-zoo-aquarium/02-zoo-animals-lp_n-amer.jpg?sfvrsn=fe63d2a6_2&w=1280&h=840&mode=crop"
+
+  },
+  {
+    "id": 5,
+    "name": "bear",
+    "image":
+      "https://welshmountainzoo.org/uploads/images-general/Athina-Brown-Bear.jpg"
+
+  },
+  {
+    "id": 6,
+    "name": "Lion",
+    "image":
+      "https://media.mnn.com/assets/images/2018/04/male_lion.jpg.653x0_q80_crop-smart.jpg"
+
+  },
+  {
+    "id": 7,
+    "name": "dog",
+    "image":
+      "http://summerlakescommunity.com/sites/summerlakescommunity.com/files/3.25_SummerLakes.jpg"
+
+  },
+  {
+    "id": 8,
+    "name": "cat",
+    "image":
+      "https://timesofindia.indiatimes.com/thumb/msid-67586673,width-1200,height-900,resizemode-4/.jpg"
+
+  },
+  {
+    "id": 9,
+    "name": "squirrel on tree",
+    "image":
+      "http://news.ufl.edu/media/newsufledu/images/2018/01/Squirrel-Square.jpg"
+
+  },
+  {
+    "id": 10,
+    "name": "bear 2",
+    "image":
+      "https://www.glendaleca.gov/Home/ShowPublishedImage/19260/635787882276930000"
+
+  },
+  {
+    "id": 11,
+    "name": "Lion 2",
+    "image":
+      "http://www.starobserver.com.au/wp-content/uploads/2017/08/lions.jpg"
+
+  },
+  {
+    "id": 12,
+    "name": "Sloth 2",
+    "image":
+      "https://19mvmv3yn2qc2bdb912o1t2n-wpengine.netdna-ssl.com/science/files/2018/08/MC_Drei-Finger-Faultier.png"
+
+  }
+]
